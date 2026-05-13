@@ -24,8 +24,9 @@ db = client[os.environ['DB_NAME']]
 # Create the main app without a prefix
 app = FastAPI(title="BKNX Advisory API")
 
-# Create a router with the /api prefix
-api_router = APIRouter(prefix="/api")
+# No /api prefix here — Vercel experimentalServices strips the routePrefix (/api)
+# before forwarding to this service. So /api/contact arrives as /contact.
+api_router = APIRouter()
 
 # Configure logging
 logging.basicConfig(
