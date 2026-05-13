@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const OFFICE_IMAGE = "https://images.unsplash.com/photo-1765366417030-16d9765d920a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBjb3Jwb3JhdGUlMjBvZmZpY2V8ZW58MHx8fHwxNzc0NDcwNzIzfDA&ixlib=rb-4.1.0&q=85";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `/api`;
 
 const subjects = [
   'Audit & Diagnostic',

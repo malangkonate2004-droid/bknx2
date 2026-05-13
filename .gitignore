@@ -83,3 +83,6 @@ android-sdk/-e
 # Environment files
 *.env
 *.env.*
+
+.vercel
+.env*.local
