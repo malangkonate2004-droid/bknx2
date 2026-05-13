@@ -1,0 +1,125 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 5 (Jewel & Luxury)",
+  "colors": {
+    "background": "#0D1B2A",
+    "surface": "#162A42",
+    "primary": "#B8974A",
+    "primary_hover": "#D4AF37",
+    "text_main": "#F5F5F0",
+    "text_muted": "#A0AAB5",
+    "border": "rgba(184, 151, 74, 0.2)",
+    "glass_bg": "rgba(13, 27, 42, 0.7)",
+    "glass_border": "rgba(184, 151, 74, 0.3)"
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond",
+    "body_font": "Inter",
+    "h1": "text-5xl sm:text-6xl+ tracking-tight font-light",
+    "h2": "text-3xl sm:text-4xl tracking-tight font-light",
+    "h3": "text-xl sm:text-2xl font-light",
+    "body": "text-base leading-relaxed text-[#F5F5F0]",
+    "overline": "text-sm uppercase tracking-[0.2em] text-[#B8974A] font-medium"
+  },
+  "spacing_and_layout": {
+    "general": "Generous spacing. p-8, p-12, p-20. Use bento grids for services. Always ensure optical alignment.",
+    "hero": "Full height or min-h-[90vh], center or left aligned depending on visual balance. Heavy use of negative space.",
+    "cards": "Subtle 1px border with gold tint (border-[#B8974A]/20). Background #162A42 or glassmorphism. Padding p-8 or p-10."
+  },
+  "components": {
+    "buttons": "Primary: Solid Gold background (#B8974A) with Dark Navy text (#0D1B2A). Hover: Lighter Gold (#D4AF37). Secondary: Transparent with Gold border and Off-white text. Use group-hover for subtle arrow movements.",
+    "navigation": "Sticky glassmorphism header (backdrop-blur-xl bg-[#0D1B2A]/80) with gold accents on hover. Do not hide desktop links behind hamburger.",
+    "cards_and_surfaces": "Use 'Glassmorphism (The Crystal Variant)' for premium feel. bg-[#0D1B2A]/60, backdrop-blur-xl, border-[#B8974A]/20. Or flat #162A42.",
+    "forms": "Shadcn components customized. Inputs should have transparent/dark backgrounds with border-[#B8974A]/30 and focus:border-[#B8974A]. Text F5F5F0."
+  },
+  "motion_and_interactions": {
+    "general": "Smooth, elegant transitions. Use Framer Motion. Fade-in up for text. Staggered reveals for bento grids.",
+    "hover_effects": "Subtle lift (-translate-y-1) for cards. Border color illuminates to solid gold. Button arrows slide right."
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "Thin outline (strokeWidth={1} or {1.5}). Gold color (#B8974A)."
+  },
+  "media": {
+    "logo": "https://customer-assets.emergentagent.com/job_bknx-advisory/artifacts/t86pbu5y_logo.png",
+    "images": {
+      "hero_background": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/1fa3edd5-8750-4787-92f6-5265f6f884b5/images/d5b92a6323a8d1374024ff6bf255ab811d120f3771659ecfe43b46e41ca420fe.png",
+        "description": "High-end corporate office at twilight, use with heavy dark navy gradient overlay."
+      },
+      "abstract_texture": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/1fa3edd5-8750-4787-92f6-5265f6f884b5/images/9bda502e06be563a7a25d1d4b3061746a9878c031661ae09ddc6efd5fda415d4.png",
+        "description": "Abstract gold and navy texture. Great for Services or Values section background."
+      },
+      "finance_details": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/1fa3edd5-8750-4787-92f6-5265f6f884b5/images/9150311581b01dd843bb544a88366fb8e490fbb41580914d6e6a08c1c4b0310c.png",
+        "description": "Premium fountain pen on financial documents. Use in Services page (Audit/Accounting)."
+      },
+      "team_member_1": {
+        "url": "https://static.prod-images.emergentagent.com/jobs/1fa3edd5-8750-4787-92f6-5265f6f884b5/images/c90248630c9f7c3f42ba018e8a14e0ba49f653cbdb10047593c53f2cabf8c591.png",
+        "description": "Professional business woman in navy suit. Use in Team section."
+      },
+      "office_meeting": {
+        "url": "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg",
+        "description": "Diverse team in modern conference room. Use for About page or Services."
+      },
+      "office_interior": {
+        "url": "https://images.unsplash.com/photo-1765366417030-16d9765d920a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBjb3Jwb3JhdGUlMjBvZmZpY2V8ZW58MHx8fHwxNzc0NDcwNzIzfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern office interior. Good for Contact page background."
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "sections": [
+        "Hero: Title 'Votre performance financière, notre priorité.', CTAs, heavy navy overlay on hero_background.",
+        "Values: 3 cards/sections (Rigueur, Confidentialité, Expertise) using abstract_texture.",
+        "Metrics: Key financial stats (e.g., AUM, years experience) in large gold serif font.",
+        "Services Overview: Bento grid of 4 cards (Audit & Diagnostic, Contrôle de Gestion, Conseil & Accompagnement, Exercice Comptable).",
+        "Testimonials Preview: Carousel or 2 highlighted quotes.",
+        "CTA: 'Prêt à optimiser vos performances ?' -> Contact."
+      ]
+    },
+    "about": {
+      "path": "/a-propos",
+      "sections": [
+        "Hero: Simple header.",
+        "Company Presentation: Text heavy, elegant typography, office_meeting image alongside.",
+        "Core Values: 4 values (Rigueur, Confidentialité, Proximité, Excellence).",
+        "Team: Grid using team_member_1 and similar placeholders."
+      ]
+    },
+    "services": {
+      "path": "/services",
+      "sections": [
+        "Hero: Services header.",
+        "Detailed Sections: 4 distinct sections alternating left/right layout. Use finance_details image for visual interest."
+      ]
+    },
+    "testimonials": {
+      "path": "/temoignages",
+      "sections": [
+        "Grid Layout: Masonry or bento grid of client quotes. Subtle glassmorphism cards."
+      ]
+    },
+    "contact": {
+      "path": "/contact",
+      "sections": [
+        "Contact Layout: Split screen. Left: Contact info (bknx.advisory@gmx.fr, +33 6 16 26 88 50) and office_interior image. Right: Form (Nom, Prénom, Email, Téléphone, Objet, Message) with validation."
+      ]
+    }
+  },
+  "testing": {
+    "requirements": "All interactive and key informational elements MUST include a data-testid attribute. Use kebab-case, role-based."
+  },
+  "instructions_to_main_agent": [
+    "Use Lucide icons with strokeWidth={1} or {1.5} to match the 'thin outline' requirement.",
+    "Implement smooth scrolling using Lenis.",
+    "Use Framer Motion for entrance animations (staggered fade-up).",
+    "Install and configure Cormorant Garamond and Inter fonts via Google Fonts in index.html.",
+    "Follow the color palette strictly: Backgrounds #0D1B2A, Text #F5F5F0, Accents #B8974A.",
+    "Use pure HTML/Tailwind for complex overlapping bento layouts, use Shadcn for standard Form, Input, Button, Card.",
+    "Ensure all contrast ratios are met, especially when placing text over images (use #0D1B2A gradient overlays)."
+  ]
+}
